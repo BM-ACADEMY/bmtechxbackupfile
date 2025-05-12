@@ -1,0 +1,18 @@
+
+# robots.txt for bmtechx.in
+
+User-agent: *
+# Disallow pages that are not suitable for indexing or user-specific.
+Disallow: /cart.html
+Disallow: /checkout.html
+Disallow: /career-single.html
+Disallow: /team-single.html
+Disallow: /project-single.html
+Disallow: /shop-single.html
+Disallow: /blog-single.html
+
+# Allow all other pages
+Allow: /
+
+# Sitemap location for search engine indexing
+Sitemap: https://bmtechx.in/sitemap.xml
